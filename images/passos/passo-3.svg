@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 400" width="500" height="400" role="img" aria-label="Impressão dos documentos e protocolo presencial no Brasil">
+  <defs>
+    <linearGradient id="bg3" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F1F5F9"/>
+      <stop offset="100%" stop-color="#E2E8F0"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="500" height="400" fill="url(#bg3)"/>
+  <circle cx="80" cy="70" r="86" fill="#10B981" opacity="0.07"/>
+  <circle cx="450" cy="330" r="78" fill="#F59E0B" opacity="0.08"/>
+
+  <!-- Edifício institucional -->
+  <g transform="translate(276 84)">
+    <rect x="6" y="12" width="180" height="200" rx="10" fill="#0B132B" opacity="0.08"/>
+    <path d="M90 0l90 42H0z" fill="#0B132B"/>
+    <rect x="0" y="42" width="180" height="12" rx="4" fill="#1C2541"/>
+    <g fill="#1C2541">
+      <rect x="18" y="62" width="20" height="104" rx="6"/>
+      <rect x="54" y="62" width="20" height="104" rx="6"/>
+      <rect x="90" y="62" width="20" height="104" rx="6"/>
+      <rect x="126" y="62" width="20" height="104" rx="6"/>
+    </g>
+    <rect x="0" y="166" width="180" height="16" rx="5" fill="#0B132B"/>
+    <rect x="-8" y="182" width="196" height="12" rx="5" fill="#0B132B" opacity="0.85"/>
+    <rect x="46" y="204" width="88" height="8" rx="4" fill="#0B132B" opacity="0.35"/>
+  </g>
+
+  <!-- Impressora -->
+  <g transform="translate(48 118)">
+    <!-- folha a sair -->
+    <g transform="translate(38 -34)">
+      <rect x="4" y="6" width="120" height="86" rx="8" fill="#0B132B" opacity="0.07"/>
+      <rect width="120" height="86" rx="8" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="2"/>
+      <rect x="16" y="18" width="60" height="8" rx="4" fill="#0B132B" opacity="0.75"/>
+      <rect x="16" y="36" width="88" height="6" rx="3" fill="#CBD5E1"/>
+      <rect x="16" y="50" width="72" height="6" rx="3" fill="#CBD5E1"/>
+      <rect x="16" y="64" width="40" height="6" rx="3" fill="#F59E0B"/>
+    </g>
+
+    <rect width="196" height="96" rx="14" fill="#1C2541"/>
+    <rect x="18" y="16" width="160" height="10" rx="5" fill="#0B132B"/>
+    <circle cx="40" cy="52" r="9" fill="#10B981"/>
+    <rect x="60" y="46" width="70" height="7" rx="3.5" fill="#FFFFFF" opacity="0.25"/>
+    <rect x="60" y="60" width="44" height="6" rx="3" fill="#FFFFFF" opacity="0.15"/>
+    <rect x="150" y="44" width="26" height="26" rx="6" fill="#F59E0B" opacity="0.85"/>
+
+    <!-- folha impressa a sair em baixo -->
+    <g transform="translate(38 88)">
+      <rect width="120" height="60" rx="6" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="2"/>
+      <rect x="16" y="14" width="70" height="6" rx="3" fill="#CBD5E1"/>
+      <rect x="16" y="28" width="88" height="6" rx="3" fill="#CBD5E1"/>
+      <rect x="16" y="42" width="52" height="6" rx="3" fill="#CBD5E1"/>
+    </g>
+  </g>
+
+  <!-- Selo protocolado -->
+  <g transform="translate(196 288)">
+    <rect width="200" height="56" rx="28" fill="#0B132B"/>
+    <circle cx="32" cy="28" r="14" fill="#F59E0B"/>
+    <path d="M32 20v16M25 28h14" stroke="#0B132B" stroke-width="3" stroke-linecap="round"/>
+    <rect x="58" y="16" width="118" height="9" rx="4.5" fill="#FFFFFF" opacity="0.9"/>
+    <rect x="58" y="32" width="84" height="7" rx="3.5" fill="#FFFFFF" opacity="0.35"/>
+  </g>
+</svg>
