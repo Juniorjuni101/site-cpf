@@ -159,8 +159,6 @@ document.addEventListener('DOMContentLoaded', () => {
             const country = document.getElementById('country').value;
             const fullName = document.getElementById('fullName').value;
             const whatsapp = document.getElementById('whatsapp').value;
-            const docType = document.getElementById('docType').value;
-            const docNumber = document.getElementById('docNumber').value;
 
             const countryLabel = country === 'MZ'
                 ? 'Moçambique'
@@ -174,15 +172,16 @@ document.addEventListener('DOMContentLoaded', () => {
                 `*SOLICITAÇÃO DE CPF*\n` +
                 `*Nome:* ${fullName}\n` +
                 `*País:* ${countryLabel}\n` +
-                `*Documento:* ${docType} (${docNumber})\n` +
                 `*WhatsApp:* ${whatsapp}\n\n` +
-                `Submeti a solicitação no site e gostaria de enviar o comprovante de pagamento dos 50% de entrada.`
+                `Enviei um pedido inicial pelo site e gostaria de receber orientação sobre os próximos passos.`
             );
 
             btnGoToWhatsappGroup.href = `https://wa.me/5511999999999?text=${message}`;
 
-            pixModal.classList.remove('hidden');
-            document.body.style.overflow = 'hidden';
+            if (pixModal) {
+                pixModal.classList.remove('hidden');
+                document.body.style.overflow = 'hidden';
+            }
         });
     }
 

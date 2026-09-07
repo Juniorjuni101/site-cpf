@@ -3132,3 +3132,13 @@ a {
         width: 100%;
     }
 }
+
+
+/* CRO transparency additions */
+.form-note { display:flex; gap:1.2rem; align-items:flex-start; padding:1.4rem 1.6rem; margin:1.6rem 0; background:var(--gold-soft); border:1px solid rgba(180,83,9,.2); border-radius:var(--radius-sm); color:var(--muted); }
+.form-note i { color:var(--gold-dark); margin-top:.35rem; }
+.form-note p { margin:0; font-size:1.4rem; line-height:1.5; }
+.member-photo-note { display:block; margin-top:.8rem; color:var(--muted-2); font-size:1.2rem; font-weight:600; }
+.price-clarity-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:2rem; max-width:90rem; margin:0 auto 2rem; }
+.price-clarity-grid .usecase-card { text-align:center; }
+@media (max-width: 700px) { .price-clarity-grid { grid-template-columns:1fr; } }
