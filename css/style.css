@@ -3142,3 +3142,23 @@ a {
 .price-clarity-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:2rem; max-width:90rem; margin:0 auto 2rem; }
 .price-clarity-grid .usecase-card { text-align:center; }
 @media (max-width: 700px) { .price-clarity-grid { grid-template-columns:1fr; } }
+
+/* Câmbio Pix simulator */
+.cambio-box--hero { width:100%; max-width:42rem; margin:auto; }
+.cambio-simulator { background:#fff; border:1px solid var(--line); border-radius:var(--radius-lg); padding:clamp(2rem,4vw,4rem); box-shadow:var(--shadow-md); }
+.cambio-rate-card { display:flex; justify-content:space-between; gap:2rem; align-items:center; padding:1.8rem 2rem; background:var(--navy); color:#fff; border-radius:var(--radius-md); }
+.rate-label, .rate-meta { display:block; color:var(--text-inverse); font-size:1.25rem; }
+.cambio-rate-card strong { display:block; margin-top:.4rem; color:var(--gold); font-size:2.4rem; }
+.rate-meta { display:flex; flex-direction:column; gap:.4rem; text-align:right; }
+.simulator-fields { margin-top:2.6rem; }
+.simulator-fields > label { display:block; color:var(--navy); font-weight:700; margin-bottom:.8rem; }
+.amount-input-wrap { display:flex; align-items:center; border:2px solid var(--line); border-radius:var(--radius-sm); overflow:hidden; background:#fff; }
+.amount-input-wrap > span { padding:1.4rem 0 1.4rem 1.6rem; color:var(--muted); font-weight:700; }
+.amount-input-wrap input { min-width:0; flex:1; padding:1.4rem 1.6rem; border:0; outline:0; color:var(--navy); font:inherit; font-weight:700; }
+.simulator-message { min-height:2.4rem; color:var(--gold-dark); font-size:1.35rem; font-weight:600; margin:.8rem 0 0; }
+.simulator-result { display:flex; justify-content:space-between; align-items:center; gap:1rem; margin-top:1.4rem; padding:1.6rem; background:var(--gold-soft); border-radius:var(--radius-sm); color:var(--navy); }
+.simulator-result strong { color:var(--emerald-dark); font-size:2.2rem; }
+.simulator-note { margin:1.8rem 0 0; color:var(--muted); font-size:1.35rem; }
+.simulator-note i { color:var(--gold-dark); margin-right:.5rem; }
+.simulator-error { margin-top:1.4rem; padding:1.2rem 1.4rem; color:#991b1b; background:#fef2f2; border:1px solid #fecaca; border-radius:var(--radius-sm); font-size:1.35rem; }
+@media (max-width: 640px) { .cambio-rate-card, .simulator-result { align-items:flex-start; flex-direction:column; } .rate-meta { text-align:left; } .cambio-rate-card strong { font-size:2rem; } }
