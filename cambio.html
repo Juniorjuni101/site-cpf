@@ -52,9 +52,9 @@
             </nav>
 
             <div class="header-actions">
-                <a href="https://wa.me/258841234567?text=Ol%C3%A1!%20Gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20o%20c%C3%A2mbio%20Pix%20para%20Mo%C3%A7ambique." target="_blank" rel="noopener" class="header-phone">
+                <a href="#contactar" data-whatsapp-link class="header-phone">
                     <span class="header-phone__icon"><i class="fa-brands fa-whatsapp"></i></span>
-                    +258 84 123 4567
+                    Falar no WhatsApp
                 </a>
                 <a href="#solicitar-cambio" class="btn btn--gold btn--sm">Pedir câmbio</a>
                 <button class="mobile-menu-toggle" id="mobileMenuBtn" aria-label="Abrir menu" aria-expanded="false" aria-controls="mainNav">
@@ -74,7 +74,7 @@
                 <p class="page-hero__lead">Transforme o saldo em reais que está no Brasil em Meticais que você pode receber em Moçambique. Fale connosco pelo WhatsApp, confirme a operação e envie o Pix somente depois de receber as instruções.</p>
                 <div class="hero-cta-group">
                     <a href="#simulador" class="btn btn--primary btn--lg"><i class="fa-solid fa-calculator"></i> Fazer meu câmbio</a>
-                    <a href="https://wa.me/258841234567?text=Ol%C3%A1!%20Fiz%20uma%20simula%C3%A7%C3%A3o%20no%20site%20e%20gostaria%20de%20realizar%20um%20c%C3%A2mbio%20de%20BRL%20para%20MZN." target="_blank" rel="noopener" class="btn btn--whatsapp btn--lg"><i class="fa-brands fa-whatsapp"></i> Tirar dúvidas no WhatsApp</a>
+                    <a href="#contactar" data-whatsapp-link target="_blank" rel="noopener" class="btn btn--whatsapp btn--lg"><i class="fa-brands fa-whatsapp"></i> Tirar dúvidas no WhatsApp</a>
                 </div>
                 <ul class="hero-trust">
                     <li><i class="fa-solid fa-circle-check"></i> R$20 – R$10.000</li>
@@ -101,6 +101,26 @@
         </div>
     </section>
 
+    <section class="section section--white reveal">
+        <div class="container media-grid">
+            <div class="media-grid__text">
+                <span class="section-label section-label--gold">A solução</span>
+                <h2 class="block-title">Você tem reais no Brasil. Nós ajudamos a transformar esse saldo em Meticais em Moçambique.</h2>
+                <p class="block-text">Combine a operação com a nossa equipa, confirme a cotação comercial, envie o Pix e, depois de recebermos o comprovativo, enviamos o valor correspondente em Meticais para o destino combinado.</p>
+                <a href="#simulador" class="btn btn--navy">Simular o meu câmbio</a>
+            </div>
+            <div class="media-grid__media">
+                <div class="cambio-box">
+                    <div class="cambio-box__row"><strong>BRL 🇧🇷</strong><span>saldo no Brasil</span></div>
+                    <div class="cambio-box__arrow"><i class="fa-solid fa-arrow-down"></i></div>
+                    <div class="cambio-box__row"><strong>Pix → Conversão</strong><span>operação confirmada</span></div>
+                    <div class="cambio-box__arrow"><i class="fa-solid fa-arrow-down"></i></div>
+                    <div class="cambio-box__row cambio-box__row--destaque"><strong>MZN 🇲🇿</strong><span>recebido em Moçambique</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <section class="steps-section reveal" id="como-funciona-cambio">
         <div class="container--wide"><h2 class="section-title">Como funciona em <span class="section-title__accent">quatro passos</span></h2>
             <div class="steps-grid">
@@ -109,7 +129,8 @@
                 <article class="step-card"><div class="step-card__pill">PASSO 3</div><div class="step-card__media"><div class="step-icon-large"><i class="fa-brands fa-pix"></i></div></div><h3 class="step-card__title">Envie o Pix</h3><p class="step-card__desc">Depois de confirmar, você envia o valor em reais através do Pix e envia o comprovativo.</p></article>
                 <article class="step-card"><div class="step-card__pill">PASSO 4</div><div class="step-card__media"><div class="step-icon-large"><i class="fa-solid fa-money-bill-transfer"></i></div></div><h3 class="step-card__title">Receba em Meticais</h3><p class="step-card__desc">Depois de recebermos o Pix e o comprovativo, enviamos o valor em Meticais em menos de 5 minutos.</p></article>
             </div>
-            <div class="steps-cta"><a href="https://wa.me/258841234567?text=Ol%C3%A1!%20Fiz%20uma%20simula%C3%A7%C3%A3o%20no%20site%20e%20gostaria%20de%20realizar%20um%20c%C3%A2mbio%20de%20BRL%20para%20MZN." target="_blank" rel="noopener" class="btn btn--primary btn--lg">Fazer meu câmbio no WhatsApp</a></div>
+            <p class="steps-result"><i class="fa-solid fa-check-circle"></i> Resultado: você recebe os seus Meticais em Moçambique.</p>
+            <div class="steps-cta"><a href="#contactar" data-whatsapp-link target="_blank" rel="noopener" class="btn btn--primary btn--lg">Fazer meu câmbio no WhatsApp</a></div>
         </div>
     </section>
 
@@ -124,11 +145,45 @@
         </div>
     </section>
 
-    <section class="section section--white reveal"><div class="container"><div class="section-header"><h2 class="section-title">Receba o seu valor em menos de 5 minutos</h2><p class="section-desc">Depois de realizar o Pix e enviar o comprovativo para a nossa equipa, enviamos o valor correspondente em Meticais em menos de 5 minutos.</p></div><div class="trust-grid"><div class="trust-card"><div class="trust-icon"><i class="fa-solid fa-clock"></i></div><h3>O prazo começa depois da confirmação</h3><p>O tempo conta depois de o cliente fazer o Pix, enviar o comprovativo e a equipa receber/confirmar o comprovativo.</p></div><div class="trust-card"><div class="trust-icon"><i class="fa-solid fa-list-check"></i></div><h3>Você sabe cada etapa</h3><p>Consulta a cotação, fala connosco, confirma a operação, recebe instruções, envia o Pix e o comprovativo, e recebe os Meticais.</p></div><div class="trust-card"><div class="trust-icon"><i class="fa-solid fa-location-dot"></i></div><h3>Destinos em Moçambique</h3><p>Os destinos atualmente apresentados são M-Pesa, e-Mola, mKesh, conta bancária e cartão. Confirme a disponibilidade no WhatsApp.</p></div></div></div></section>
+    <section class="section section--white reveal">
+        <div class="container">
+            <div class="section-header"><h2 class="section-title">Você sabe quanto vai receber antes de enviar o Pix.</h2><p class="section-desc">A equipa apresenta ou confirma a cotação comercial, informa o valor correspondente em MZN e só depois você decide se quer realizar a operação.</p></div>
+            <div class="trust-grid">
+                <div class="trust-card"><div class="trust-icon"><i class="fa-solid fa-1"></i></div><h3>Informe o valor</h3><p>Use o simulador para ter uma estimativa do valor em reais.</p></div>
+                <div class="trust-card"><div class="trust-icon"><i class="fa-solid fa-2"></i></div><h3>Confirme a cotação</h3><p>A nossa equipa confirma a cotação comercial e o valor em Meticais.</p></div>
+                <div class="trust-card"><div class="trust-icon"><i class="fa-solid fa-3"></i></div><h3>Decida antes do Pix</h3><p>Você recebe as instruções apenas depois de entender e confirmar a operação.</p></div>
+            </div>
+        </div>
+    </section>
 
-    <section class="section section--light reveal"><div class="container"><div class="section-header"><h2 class="section-title">A nossa garantia</h2><p class="section-desc">A garantia comercial deve ser confirmada nas condições da operação antes do pagamento.</p></div><div class="guarantee-card"><div class="guarantee-icon"><i class="fa-solid fa-shield-heart"></i></div><div class="guarantee-body"><h3>Condições explicadas antes do Pix</h3><p>Se recebermos o seu Pix e, por algum motivo imputável à nossa operação, não conseguirmos realizar a conversão acordada, o tratamento do valor seguirá as condições confirmadas na operação. Não apresentamos esta informação como “sem risco” ou como garantia automática.</p></div></div></div></section>
+    <section class="section section--white reveal"><div class="container"><div class="section-header"><h2 class="section-title">Receba o seu valor em menos de 5 minutos</h2><p class="section-desc">Depois de realizar o Pix e enviar o comprovativo para a nossa equipa, enviamos o valor correspondente em Meticais em menos de 5 minutos.</p></div><div class="trust-grid"><div class="trust-card"><div class="trust-icon"><i class="fa-solid fa-clock"></i></div><h3>O prazo começa depois da confirmação</h3><p>O tempo conta depois de o cliente fazer o Pix, enviar o comprovativo e a equipa receber/confirmar o comprovativo.</p></div><div class="trust-card"><div class="trust-icon"><i class="fa-solid fa-list-check"></i></div><h3>Você sabe cada etapa</h3><p>Consulta a cotação, fala connosco, confirma a operação, recebe instruções, envia o Pix e o comprovativo, e recebe os Meticais.</p></div><div class="trust-card"><div class="trust-icon"><i class="fa-solid fa-location-dot"></i></div><h3>Destinos em Moçambique</h3><p>Os destinos apresentados são M-Pesa, e-Mola, mKesh e conta bancária quando disponível. Confirme a modalidade no WhatsApp.</p></div></div></div></section>
 
-    <section class="cta-banner reveal"><div class="container cta-banner__inner"><h2>Quer realizar o seu câmbio?</h2><p>Fale connosco pelo WhatsApp para confirmar a operação e receber as instruções.</p><a href="https://wa.me/258841234567?text=Ol%C3%A1!%20Fiz%20uma%20simula%C3%A7%C3%A3o%20no%20site%20e%20gostaria%20de%20realizar%20um%20c%C3%A2mbio%20de%20BRL%20para%20MZN." target="_blank" rel="noopener" class="btn btn--gold btn--lg" data-whatsapp-cambio>Fazer meu câmbio</a></div></section>
+    <section class="section section--white reveal" id="equipa-cambio">
+        <div class="container">
+            <div class="section-header"><h2 class="section-title">Quem está por trás do seu câmbio?</h2><p class="section-desc">A nossa equipa está presente entre Moçambique e Brasil, permitindo acompanhar as duas partes da operação: o recebimento do Pix no Brasil e o envio do valor correspondente em Moçambique.</p></div>
+            <div class="team-grid team-grid--cambio">
+                <article class="team-card"><div class="member-avatar"><i class="fa-solid fa-user"></i></div><small class="member-photo-note">Fotografia real a adicionar</small><h3 class="member-name">Equipa no Brasil</h3><span class="member-role">Recebimento do Pix</span><p class="member-desc">A identificação da pessoa responsável e a fotografia real serão confirmadas pelo proprietário.</p></article>
+                <article class="team-card"><div class="member-avatar"><i class="fa-solid fa-user"></i></div><small class="member-photo-note">Fotografia real a adicionar</small><h3 class="member-name">Equipa em Moçambique</h3><span class="member-role">Envio dos Meticais</span><p class="member-desc">A identificação da pessoa responsável e a fotografia real serão confirmadas pelo proprietário.</p></article>
+            </div>
+            <div class="steps-cta"><a href="#contactar" class="btn btn--navy" data-whatsapp-link>Falar com a nossa equipa</a></div>
+        </div>
+    </section>
+
+    <section class="section section--light reveal">
+        <div class="container--narrow"><div class="section-header"><h2 class="section-title">O que você precisa saber sobre este serviço</h2></div><div class="faq-accordion">
+            <div class="faq-item open"><button class="faq-question"><span>É um serviço oficial ou bancário?</span><i class="fa-solid fa-chevron-down"></i></button><div class="faq-answer"><p>É um serviço privado de intermediação/conversão entre BRL e MZN. Não somos Receita Federal, banco, governo brasileiro ou entidade oficial.</p></div></div>
+            <div class="faq-item"><button class="faq-question"><span>A cotação do simulador é definitiva?</span><i class="fa-solid fa-chevron-down"></i></button><div class="faq-answer"><p>Não. É uma estimativa baseada na cotação comercial do dia. A equipa confirma o valor final antes do Pix.</p></div></div>
+            <div class="faq-item"><button class="faq-question"><span>Preciso falar com a equipa antes de enviar o Pix?</span><i class="fa-solid fa-chevron-down"></i></button><div class="faq-answer"><p>Sim. Primeiro confirme a operação, a cotação e os dados necessários.</p></div></div>
+            <div class="faq-item"><button class="faq-question"><span>Qual é o valor mínimo e máximo?</span><i class="fa-solid fa-chevron-down"></i></button><div class="faq-answer"><p>O mínimo é R$20 e o máximo é R$10.000.</p></div></div>
+            <div class="faq-item"><button class="faq-question"><span>O serviço funciona aos fins de semana?</span><i class="fa-solid fa-chevron-down"></i></button><div class="faq-answer"><p>Sim. O atendimento está disponível 24 horas por dia, 7 dias por semana.</p></div></div>
+            <div class="faq-item"><button class="faq-question"><span>Posso receber no M-Pesa, e-Mola ou mKesh?</span><i class="fa-solid fa-chevron-down"></i></button><div class="faq-answer"><p>Sim. Também pode ser possível receber numa conta bancária, quando essa modalidade estiver disponível para a operação. Confirme a disponibilidade com a equipa.</p></div></div>
+            <div class="faq-item"><button class="faq-question"><span>Quanto tempo demora para receber?</span><i class="fa-solid fa-chevron-down"></i></button><div class="faq-answer"><p>Depois de realizar o Pix e enviar o comprovativo para a nossa equipa, enviamos o valor correspondente em Meticais em menos de 5 minutos.</p></div></div>
+        </div></div>
+    </section>
+
+    <section class="section section--light reveal"><div class="container"><div class="section-header"><h2 class="section-title">Se tiver algum problema, fale diretamente com a nossa equipa.</h2><p class="section-desc">Não apresentamos uma garantia financeira automática. Qualquer condição específica deve ser confirmada antes do pagamento.</p></div><div class="guarantee-card"><div class="guarantee-icon"><i class="fa-solid fa-shield-heart"></i></div><div class="guarantee-body"><h3>Condições explicadas antes do Pix</h3><p>Se houver um problema operacional, fale diretamente com a equipa para verificar o estado da operação e as condições confirmadas. Não use “100% seguro”, “sem risco” ou “reembolso garantido”.</p></div></div></div></section>
+
+    <section class="cta-banner reveal" id="contactar"><div class="container cta-banner__inner"><h2>Tem reais no Brasil e precisa de Meticais em Moçambique?</h2><p>Fale connosco, confirme a cotação e descubra quanto você pode receber.</p><a href="#contactar" data-whatsapp-link class="btn btn--gold btn--lg" data-whatsapp-cambio>Quero fazer o meu câmbio</a></div></section>
 </main>
 
 
@@ -145,8 +200,8 @@
                     </a>
                     <p class="footer-desc">Especialistas na intermediação segura de documentos brasileiros e no câmbio Pix para Meticais para cidadãos de Moçambique.</p>
                     <div class="footer-badges">
-                        <span><i class="fa-solid fa-lock"></i> Conexão SSL segura</span>
-                        <span><i class="fa-solid fa-user-shield"></i> Proteção LGPD</span>
+                        <span><i class="fa-solid fa-comments"></i> Atendimento direto</span>
+                        <span><i class="fa-solid fa-circle-info"></i> Cotação confirmada antes do Pix</span>
                     </div>
                 </div>
 
@@ -165,7 +220,7 @@
                 <div class="footer-col">
                     <h4>Atendimento direto</h4>
                     <ul class="footer-contact">
-                        <li><i class="fa-brands fa-whatsapp"></i> <a href="https://wa.me/258841234567" target="_blank" rel="noopener">+258 84 123 4567 (Moçambique)</a></li>
+                        <li><i class="fa-brands fa-whatsapp"></i> <a href="#contactar" data-whatsapp-link>WhatsApp da equipa — número a configurar</a></li>
                         <li><i class="fa-solid fa-envelope"></i> <a href="mailto:contato@assessoriacpfinternacional.com">contato@assessoriacpfinternacional.com</a></li>
                     </ul>
                 </div>
@@ -196,11 +251,25 @@
         </div>
     </footer>
 
-    <a href="https://wa.me/5511999999999" target="_blank" rel="noopener" class="floating-whatsapp" aria-label="Falar no WhatsApp">
+    <a href="#contactar" data-whatsapp-link class="floating-whatsapp" aria-label="Falar no WhatsApp">
         <i class="fa-brands fa-whatsapp"></i>
     </a>
 
     <script src="js/main.js"></script>
+    <script>
+        // Configure the real number here when the owner provides it; no number is invented in this page.
+        const CAMBIO_WHATSAPP_NUMBER = '';
+        document.addEventListener('DOMContentLoaded', () => {
+            document.querySelectorAll('[data-whatsapp-link]').forEach((link) => link.addEventListener('click', (event) => {
+                if (!CAMBIO_WHATSAPP_NUMBER) {
+                    event.preventDefault();
+                    alert('O WhatsApp da equipa ainda não foi configurado. Fale connosco através da página de contacto.');
+                    return;
+                }
+                link.href = `https://wa.me/${CAMBIO_WHATSAPP_NUMBER}`;
+            }));
+        });
+    </script>
     <script>
         document.addEventListener('DOMContentLoaded', async () => {
             const simulator = document.querySelector('[data-cambio-simulator]');
@@ -248,7 +317,7 @@
                 const value = Number(amountInput.value);
                 const suffix = value >= 20 && value <= 10000 ? ` de R$${value.toLocaleString('pt-BR', { minimumFractionDigits: 2 })}` : '';
                 const message = encodeURIComponent(`Olá! Fiz uma simulação${suffix} para MZN no site e gostaria de realizar o câmbio.`);
-                link.href = `https://wa.me/258841234567?text=${message}`;
+                if (CAMBIO_WHATSAPP_NUMBER) link.href = `https://wa.me/${CAMBIO_WHATSAPP_NUMBER}?text=${message}`;
             }));
         });
     </script>
